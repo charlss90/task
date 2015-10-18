@@ -1,0 +1,4 @@
+--require ./test/helpers.js
+--recursive
+--reporter spec
+--ui bdd

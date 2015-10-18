@@ -4,7 +4,7 @@
   "description": "MultiTasking in NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/charlss90/task/issues"
   },
-  "homepage": "https://github.com/charlss90/task#readme"
+  "homepage": "https://github.com/charlss90/task#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.1"
+  }
 }
